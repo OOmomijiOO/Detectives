@@ -129,7 +129,8 @@
         #配列の中で使うのはテーブルのカラム名
         echo $nawdata['id'].',';
         echo $nawdata['name'].',';
-        echo $nawdata['comment'];
+        echo $nawdata['comment'].',';
+        echo $nawdata['date'];
         echo "<hr>";
     }
     ?>
